@@ -23,6 +23,7 @@ function Header() {
             <Link to="/privacy_policy" className="text-link">
                 Политика конфиденциальности
             </Link>
+            <span>8 (495) 222-22-22</span>
         </div>
     );
 }

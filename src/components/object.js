@@ -6,7 +6,7 @@ function Object(props) {
             <img src={props.img} alt="" width="800" height="400" className="objImg"></img>
             <div>
                 <h2>{props.title}</h2>
-                <p>{props.price} руб.</p>
+                <p className="date">{props.price} руб.</p>
                 <h3>В стоимость вошли работа и материалы:</h3>
                 <div className="list">
                     <ul>

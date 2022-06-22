@@ -1,3 +1,7 @@
+html {
+  overflow-y:scroll;
+}
+
 .App {
   text-align: center;
 }
@@ -6,7 +10,8 @@
   text-align: center;
   font-size: larger;
   display: grid;
-  grid-template-columns: 150px 150px 150px 150px 100px 300px;
+  grid-template-columns: 80px 110px 90px 140px 50px 300px 150px;
+  gap: 50px;
   justify-content: center;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -72,12 +77,61 @@
   display: grid;
   grid-template-columns: 50px 50px 50px 50px 50px;
   justify-content: center;
-}
-
-.pagination {
   list-style-type: none;
+  background-color: #4CAF50;
+  color: white;
+  max-width: 250px;
+  margin: auto;
+  margin-bottom: 25px;
 }
 
 .pagination:hover {
   cursor: pointer;
+}
+
+.download {
+  display: grid;
+  max-width: 330px;
+  margin: auto;
+  grid-template-columns: 25px 300px;
+  gap: 5px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.documents {
+  text-align: center;
+}
+
+.entry {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 400px 600px;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.buttonWrapper {
+  text-align: right;
+}
+
+.buttonDetail {
+  height: 28px;
+  background-color: white;
+  color: #4CAF50;
+  border: 2px solid #4CAF50;
+}
+
+.buttonDetail:hover {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.date {
+  background-color: #4CAF50;
+  color: white;
 }
