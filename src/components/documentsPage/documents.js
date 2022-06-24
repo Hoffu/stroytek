@@ -1,14 +1,14 @@
-import '../App.css';
+import '../../App.css';
 import Document from './document';
-import fer from "../download/FER.zip";
-import gesn from "../download/GESN.zip";
-import fssts from "../download/FSSTs.zip";
-import mds1 from "../download/MDS 81-3-99.doc";
-import mds2 from "../download/MDS 81-25-2001.doc";
-import mds3 from "../download/MDS 81-33-2004.doc";
-import mds4 from "../download/MDS 81-35-2004.doc";
-import mds5 from "../download/MDS 83-1-99.doc";
-import fsem from "../download/FSEM.doc";
+import fer from "../../download/FER.zip";
+import gesn from "../../download/GESN.zip";
+import fssts from "../../download/FSSTs.zip";
+import mds1 from "../../download/MDS 81-3-99.doc";
+import mds2 from "../../download/MDS 81-25-2001.doc";
+import mds3 from "../../download/MDS 81-33-2004.doc";
+import mds4 from "../../download/MDS 81-35-2004.doc";
+import mds5 from "../../download/MDS 83-1-99.doc";
+import fsem from "../../download/FSEM.doc";
 
 function Documents() {
     return (

@@ -1,17 +1,17 @@
 import ReactPaginate from 'react-paginate';
 import { useState, useEffect } from 'react';
 import Object from "./object";
-import '../App.css';
-import img1 from "../img/392ddaf221499a8cf14c5fc3097354be.jpg";
-import img2 from "../img/0343df85df4792fd22ec38db0d57bf1d-3.jpg";
-import img3 from "../img/fccbfede210dfd4ee440c602740bc7f0.jpg";
-import img4 from "../img/46692fe4172f63a55dd5249e6c7625b0-1.jpg";
-import img5 from "../img/a20abe3b3696a89cd1e4f4f4f6a5b902.jpg";
-import img6 from "../img/439db7569862096e269d7ad53fff5d74.jpg";
-import img7 from "../img/86e659a91c876c86234c04c946a18693.jpg";
-import img8 from "../img/7a398434e48b206feaf996f0cfbb5743-1024x819.jpg";
-import img9 from "../img/75435a6bd6c5890fa7b8012858b1bf00-1024x498.jpg";
-import img10 from "../img/72866919db4e3c2878aed4d6b0434470.jpg";
+import '../../App.css';
+import img1 from "../../img/392ddaf221499a8cf14c5fc3097354be.jpg";
+import img2 from "../../img/0343df85df4792fd22ec38db0d57bf1d-3.jpg";
+import img3 from "../../img/fccbfede210dfd4ee440c602740bc7f0.jpg";
+import img4 from "../../img/46692fe4172f63a55dd5249e6c7625b0-1.jpg";
+import img5 from "../../img/a20abe3b3696a89cd1e4f4f4f6a5b902.jpg";
+import img6 from "../../img/439db7569862096e269d7ad53fff5d74.jpg";
+import img7 from "../../img/86e659a91c876c86234c04c946a18693.jpg";
+import img8 from "../../img/7a398434e48b206feaf996f0cfbb5743-1024x819.jpg";
+import img9 from "../../img/75435a6bd6c5890fa7b8012858b1bf00-1024x498.jpg";
+import img10 from "../../img/72866919db4e3c2878aed4d6b0434470.jpg";
 
 let objects = [
     {

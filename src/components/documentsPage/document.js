@@ -1,5 +1,5 @@
-import '../App.css';
-import downloadIcon from "../img/document-download.svg";
+import '../../App.css';
+import downloadIcon from "../../img/document-download.svg";
 
 function Document(props) {
     return (

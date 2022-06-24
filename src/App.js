@@ -4,13 +4,13 @@ import {
   Routes
 } from "react-router-dom";
 import './App.css';
-import About from "./components/about";
-import Header from "./components/header";
-import MainPage from "./components/mainPage";
-import Projects from "./components/projects";
-import Documents from "./components/documents";
-import Blog from "./components/blog";
-import PrivacyPolicy from "./components/privacyPolicy";
+import About from "./components/aboutPage/about";
+import Header from "./components/header/header";
+import MainPage from "./components/mainPage/mainPage";
+import Projects from "./components/projectsPage/projects";
+import Documents from "./components/documentsPage/documents";
+import Blog from "./components/blogPage/blog";
+import PrivacyPolicy from "./components/policyPage/privacyPolicy";
 
 function App() {
   return (

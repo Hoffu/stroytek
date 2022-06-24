@@ -1,9 +1,9 @@
-import '../App.css';
-import saleImg from '../img/30940bfeb1bc57a9466b04dba81f1e80.jpg';
-import like from '../img/like2.png';
-import coin from '../img/coin2.png';
-import wood from '../img/firewood2.png';
-import pics from '../img/telephone2.png';
+import '../../App.css';
+import saleImg from '../../img/30940bfeb1bc57a9466b04dba81f1e80.jpg';
+import like from '../../img/like2.png';
+import coin from '../../img/coin2.png';
+import wood from '../../img/firewood2.png';
+import pics from '../../img/telephone2.png';
 import Feature from './feature';
 
 function MainPage() {
