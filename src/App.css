@@ -60,7 +60,7 @@ html {
 .object {
   text-align: center;
   display: grid;
-  grid-template-columns: 800px 600px;
+  grid-template-columns: 600px 500px;
   justify-content: center;
   gap: 25px;
   margin-top: 40px;
