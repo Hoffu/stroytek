@@ -206,3 +206,13 @@ html {
   text-align: center;
   margin-top: 20%;
 }
+
+.authentication {
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.warning {
+  color: darkred;
+}
