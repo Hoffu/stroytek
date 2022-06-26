@@ -1,15 +1,29 @@
 import '../../App.css';
-import saleImg from '../../img/30940bfeb1bc57a9466b04dba81f1e80.jpg';
 import like from '../../img/like2.png';
 import coin from '../../img/coin2.png';
 import wood from '../../img/firewood2.png';
 import pics from '../../img/telephone2.png';
 import Feature from './feature';
+import { useState, useCallback, useEffect } from 'react';
 
 function MainPage() {
+    const [image, setImage] = useState(null);
+    const imageUrl = 'http://localhost:8080/api/image/30940bfeb1bc57a9466b04dba81f1e80';
+
+    const getImage = useCallback(async () => {
+        const res = await fetch(imageUrl);
+        const imageBlob = await res.blob();
+        const imageObjectURL = URL.createObjectURL(imageBlob);
+        setImage(imageObjectURL);
+    }, []);
+
+    useEffect(() => {
+        getImage();
+    }, [getImage]);
+
     return (
         <div className="mainPage">
-            <img src={saleImg} alt=""></img>
+            <img src={image} alt=""></img>
             <div className="features-container">
                 <Feature 
                     img={like}
