@@ -20,6 +20,9 @@ function Header() {
             <Link to="/blog" className="text-link">
                 Блог
             </Link>
+            <Link to="/materials" className="text-link">
+                Материалы
+            </Link>
             <Link to="/privacy_policy" className="text-link">
                 Политика конфиденциальности
             </Link>

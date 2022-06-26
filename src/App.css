@@ -2,6 +2,10 @@ html {
   overflow-y:scroll;
 }
 
+div {
+  white-space: pre-wrap;
+}
+
 .App {
   text-align: center;
 }
@@ -10,7 +14,7 @@ html {
   text-align: center;
   font-size: larger;
   display: grid;
-  grid-template-columns: 80px 110px 90px 140px 50px 300px 150px;
+  grid-template-columns: 80px 110px 90px 140px 50px 110px 300px 150px;
   gap: 50px;
   justify-content: center;
   margin-top: 15px;
@@ -215,4 +219,38 @@ html {
 
 .warning {
   color: darkred;
+}
+
+.materials {
+  text-align: center;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.linkToMaterial {
+  cursor: pointer;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+.material {
+  margin-top: 10px;
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.materialText {
+  margin-bottom: 2.5em;
+  overflow: hidden;
+}
+.materialText:last-child {
+  overflow: visible;
+}
+
+.materialImg {
+  float: left;
+  margin-left: 1em;
+  border-radius: 1.5%;
+  object-fit: cover;
 }

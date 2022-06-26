@@ -31,8 +31,9 @@ function Login(props) {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        let token = verifyUser(user);
-        if(!token) setWarning(true);
+        verifyUser(user).then(result => {
+            if(!result) setWarning(true);
+        });
     }
 
     return (

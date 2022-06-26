@@ -16,6 +16,8 @@ import Project from "./components/projectPage/project";
 import Order from "./components/orderPage/order";
 import FinishOrder from "./components/orderPage/finishOrder";
 import Login from "./components/authenticationPage/login";
+import Materials from "./components/materialsPage/materials";
+import Material from "./components/materialsPage/material";
 
 function App() {
     const { token, setToken } = useToken();
@@ -33,6 +35,8 @@ function App() {
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/documents" element={<Documents />} />
                 <Route path="/blog" element={<Blog />} />
+                <Route path="/materials" element={<Materials />} />
+                <Route path="/materials/:id" element={<Material />} />
                 <Route path="/privacy_policy" element={<PrivacyPolicy />} />
                 <Route path="/projects/:id" element={<Project />} />
                 <Route path="/order" element={<Order />} />
