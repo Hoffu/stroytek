@@ -11,6 +11,9 @@ import Projects from "./components/projectsPage/projects";
 import Documents from "./components/documentsPage/documents";
 import Blog from "./components/blogPage/blog";
 import PrivacyPolicy from "./components/policyPage/privacyPolicy";
+import Project from "./components/projectPage/project";
+import Order from "./components/orderPage/order";
+import FinishOrder from "./components/orderPage/finishOrder";
 
 function App() {
   return (
@@ -23,6 +26,9 @@ function App() {
             <Route path="/documents" element={<Documents />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/privacy_policy" element={<PrivacyPolicy />} />
+            <Route path="/projects/:id" element={<Project />} />
+            <Route path="/order" element={<Order />} />
+            <Route path="/finish_order" element={<FinishOrder />} />
         </Routes>
     </Router>
   );

@@ -135,3 +135,74 @@ html {
   background-color: #4CAF50;
   color: white;
 }
+
+.project {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 600px 600px;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.description {
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.orderButton {
+  font-size: larger;
+  height: 50px;
+  width: 200px;
+  background-color: #4CAF50;
+  color: white;
+  border: 2px solid #4CAF50;
+}
+
+.orderButton:hover {
+  background-color: white;
+  color: #4CAF50;
+  cursor: pointer;
+}
+
+.order {
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.inputOrder {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: larger;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.submitOrder {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: larger;
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.formWrapper {
+  text-align: left;
+}
+
+.finishOrder {
+  text-align: center;
+  margin-top: 20%;
+}

@@ -18,6 +18,9 @@ function Projects() {
 
     useEffect(() => {
         getData();
+    }, []);
+
+    useEffect(() => {
         const endOffset = itemOffset + itemsPerPage;
         setCurrentItems(objects.slice(itemOffset, endOffset));
         setPageCount(Math.ceil(objects.length / itemsPerPage));
@@ -32,9 +35,11 @@ function Projects() {
         <div>
             {currentItems?.map((object, index) => {
                 return <Object
+                    id={object.id}
                     key={index}
                     img={object.img}
                     name={object.name}
+                    price={object.price}
                     description={object.description}
                 />
             })}
